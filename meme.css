@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+h1 {
+    color: black;
+    font-family: 'Girassol', cursive;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+h3 {
+    color: #6708bf;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 35px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+button[type=submit]:hover {
+    background-color: grey;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.meme-img {
+    display: inline-block;
+    margin: 1%;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+}
+
+.meme-img:hover {
+    opacity: 0.5;
+}
+
+.delete-x {
+    width: 500px;
+	height: 250px;
+	content: "X";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -66%);
+	font-weight: 700;
+	text-align: right;
+	font-size: 150%;
+	opacity: 0;
+}
+
+.delete-x:hover {
+    opacity: 1.0;
+    z-index: 20;
+}
+
+.text {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.1em;
+    letter-spacing: 1.0px;
+    color: black;
+    text-transform: lowercase;
+    opacity: 1;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+	z-index: 0;
+    max-height: 50%;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	z-index: 0;
+	max-height: 50%;
+}
+
+img {
+    width: 500px;
+}

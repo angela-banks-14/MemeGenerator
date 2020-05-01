@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <div>
+        <h1>MEME Generator</h1>
+        <h3>Create your own awesome memes!</h3>
+    </div>
+
+    <section class="container">
+        <form id="meme-form">
+            <div>
+            <label for="url-name">Image URL: </label><br>
+            <input type="text" id="url" name="imageurl" placeholder="Paste your URL here"><br>
+            </div>
+
+            <div>
+            <label for="top-text">Top Text:</label><br>
+            <input type="text" id="t-text" name="toptext" placeholder="Text at the top of the image"><br>
+            </div>
+
+            <div>
+            <label for="bottom-text">Bottom Text:</label><br>
+            <input type="text" id="b-text" name="bottomtext" placeholder="Text at the bottom of the image"><br>
+            </div>
+            
+            <div>
+                <button type="submit" class="btn" id="submit-btn">Generate!</button>
+            </div>
+        </form>
+ 
+    <div class="line"></div>
+    </section>
+
+    <section class="meme-pics">
+        <ul class="pics">
+        </ul>
+    </section>
+   
+    <script src="meme.js"></script> 
+</body>
+</html>
